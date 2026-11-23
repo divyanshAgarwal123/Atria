@@ -1,0 +1,25 @@
+{
+  "issue": 31,
+  "sourceHead": "26d914cda156818f456d9d93f7d9d8b9309b90f1",
+  "base": "a4668c07690a0930b89d1d0d1c73e9541a952fb2",
+  "focusedTests": 26,
+  "build": "pass",
+  "fullSuite": {
+    "branchPassed": 57,
+    "basePassed": 53,
+    "matchingBaselineFailures": [
+      "FAIL  tests/Studio.test.jsx > Studio panel controls > returns an added component to the canvas and saves the updated workspace",
+      "FAIL  tests/navigation.test.jsx > primary navigation journeys > offers working Explore Library and Open Studio landing destinations",
+      "FAIL  tests/navigation.test.jsx > primary navigation journeys > opens Studio from the Explore section navigation",
+      "FAIL  tests/navigation.test.jsx > primary navigation journeys > returns from Studio to Explore and then the landing page",
+      "FAIL  tests/navigation.test.jsx > primary navigation journeys > returns directly to the landing page through the Studio Atria link"
+    ]
+  },
+  "files": {
+    "before-1280.png": "0194b759a516375216004e1f00c8fe90491002e374310af4c1591432f57f83ee",
+    "before-390.png": "0cdaf3f4def419927a9047cb2976e1ab568a410026912f8c36d5da69827ba4ee",
+    "browser-results.json": "097875c8ec306adce77070c0c70ad8c2ca18c384fb62bec2f27f48984b0746ae",
+    "collections-1280.png": "4df6ae8d7e80fc695e8c45fb614af0283876faf143f2489ba79aabe9322ea612",
+    "collections-390.png": "bf7a508f972947f4461535adaf56b134dd3b255931af9b595ed255f26ee4fd68"
+  }
+}

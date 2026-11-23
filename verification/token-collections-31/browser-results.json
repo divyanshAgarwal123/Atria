@@ -1,0 +1,38 @@
+[
+  {
+    "mode": "dev",
+    "width": 1280,
+    "createRenameDelete": "pass",
+    "moveAndPersist": "pass",
+    "search": "pass",
+    "clipboardAndExports": "pass",
+    "consoleErrors": []
+  },
+  {
+    "mode": "dev",
+    "width": 390,
+    "createRenameDelete": "pass",
+    "moveAndPersist": "pass",
+    "search": "pass",
+    "clipboardAndExports": "pass",
+    "consoleErrors": []
+  },
+  {
+    "mode": "preview",
+    "width": 1280,
+    "createRenameDelete": "pass",
+    "moveAndPersist": "pass",
+    "search": "pass",
+    "clipboardAndExports": "pass",
+    "consoleErrors": []
+  },
+  {
+    "mode": "preview",
+    "width": 390,
+    "createRenameDelete": "pass",
+    "moveAndPersist": "pass",
+    "search": "pass",
+    "clipboardAndExports": "pass",
+    "consoleErrors": []
+  }
+]
