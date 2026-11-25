@@ -1,14 +1,26 @@
 {
-  "sourceHead": "ca405ddec481539252f205064c60c0c901618ec6",
-  "actualParent": "803f0b6e142059b884aa4894cda0a1b6748c1f29",
+  "sourceHead": "9d969e9d555e3fa2aab98bb32a5df6c35d042b8f",
+  "actualParent": "ca405ddec481539252f205064c60c0c901618ec6",
   "sourceFiles": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "gitBlobOid": "1a6c72f2e525b0d4a3178825b158161538a504b4"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "gitBlobOid": "6ac7e8de85774ba3bacb9b4e672b507bdeb9aa65"
+    },
+    {
+      "path": "README.md",
+      "gitBlobOid": "c356685a595294091e9668d64b42fd1b798b26ad"
+    },
     {
       "path": "tests/TokenBehaviour.test.jsx",
       "gitBlobOid": "dc89c2c0b63cbf874f59cdef36d6e2c10f9960c4"
     }
   ],
   "newTests": 6,
-  "newTestsResult": "PASS",
+  "newTestsResult": "FinalNode22focused6PASS;fullfinal47pass1fail+same4parsefailedsuites;buildsameApp96failure",
   "fullTests": {
     "head": "47pass1fail+4startupfailures",
     "parent": "41pass1fail+same4startupfailures",
@@ -21,7 +33,7 @@
   "unchangedAppBlob": "9ade28e5105870aad71b7f66372108dc4d1e6928",
   "communityValidation": "PASS:3files",
   "stagedSecrets": "PASS",
-  "scope": "One test file only; no production, dependency, config, assertion-floor or visual changes. Existing empty/duplicate-name validation tests preserved.",
+  "scope": "One test file plus Node20-to22.23.5 CI runtime alignment and two matching development-requirements docs; no production, dependency or test assertion-floor changes.",
   "publication": "GENUINE_DRAFT; full tests/build blocked on unchanged main, not ready or credited. Existing assigned Level1 commitment, not a new lower-grade fallback.",
   "logNormalization": "ANSI color and trailing whitespace removed only; original raw digests retained below.",
   "rawLocalTranscriptDigests": {
@@ -32,5 +44,17 @@
     "atria25-validator.log": "630cdbe509897a1fd3f5557284dd2986559ce602b2e7a8f215b2fa72570f231f",
     "atria25-install.log": "0d1749ea734aee73cec8e5a525bfc71d5551db53180e75f49c65dc3b4676205f",
     "atria25-gitleaks.log": "4b0132f373df4521538ccb0345d67ef0858b589d205067b4bd5161f886e7f4e8"
+  },
+  "baseMain": "803f0b6e142059b884aa4894cda0a1b6748c1f29",
+  "hostedOldHead": {
+    "sourceHead": "ca405ddec481539252f205064c60c0c901618ec6",
+    "run": "https://github.com/breeze-sn/Atria/actions/runs/45546927687",
+    "failure": "Node20 lockedundici/jsdom worker-startTypeError;NOtestsran. NOTthelocalAppparsefailure."
+  },
+  "runtimeEvidence": {
+    "jsdom31.0.1": "^22.22.2 || ^24.15.0 || >=26.0.0",
+    "undici8.12.4": ">=22.19.0",
+    "workflow": "22.23.5",
+    "yaml": "parsedvalid/read-onlypermissionsunchanged"
   }
 }

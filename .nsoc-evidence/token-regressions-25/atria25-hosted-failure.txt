@@ -1,0 +1,292 @@
+Validate, test, and build	Run test suite	﻿2026-11-25T04:28:01.6170064Z ##[group]Run npm test
+Validate, test, and build	Run test suite	2026-11-25T04:28:01.6170357Z npm test
+Validate, test, and build	Run test suite	2026-11-25T04:28:01.6204991Z shell: /usr/bin/bash -e {0}
+Validate, test, and build	Run test suite	2026-11-25T04:28:01.6205263Z ##[endgroup]
+Validate, test, and build	Run test suite	2026-11-25T04:28:01.7438407Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:01.7439334Z > atria@0.1.0 test
+Validate, test, and build	Run test suite	2026-11-25T04:28:01.7440454Z > vitest run
+Validate, test, and build	Run test suite	2026-11-25T04:28:01.7440875Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:02.0491636Z  DEPRECATED  `test.poolOptions` was removed in Vitest 4. All previous `poolOptions` are now top-level options. Please, refer to the migration guide: https://v4.vitest.dev/guide/migration#pool-rework
+Validate, test, and build	Run test suite	2026-11-25T04:28:02.0728741Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:02.0730335Z  RUN  v5.1.0 /home/runner/work/Atria/Atria
+Validate, test, and build	Run test suite	2026-11-25T04:28:02.0730860Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5804316Z ⎯⎯⎯⎯⎯⎯ Unhandled Errors ⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5805147Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5805767Z Vitest caught 14 unhandled errors during the test run.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5807314Z This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5833415Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5834303Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5836185Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/ThemePreviews.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5838813Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5841334Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5843192Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5843943Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5847714Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5849780Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5851466Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5852948Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5854400Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5855787Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5857293Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5858862Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5860202Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5861635Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5863155Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5864389Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5864431Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5865093Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5866957Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/TokenBehaviour.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5869068Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5870737Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5872514Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5873281Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5874191Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5875883Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5877926Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5879647Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5881087Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5882484Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5883903Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5885229Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5886525Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5887919Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5889651Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5890400Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5890444Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5891084Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5892970Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/TokenCollections.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5894857Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5896496Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5898409Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5899191Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5900078Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5901782Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5903406Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5904899Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5906322Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5907692Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5909398Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5910734Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5912084Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5913494Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5914970Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5915988Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5916008Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5916654Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5918715Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/navigation.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5920550Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5922209Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5923966Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5924724Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5925576Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5927275Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5929451Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5930960Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5932442Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5933772Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5935140Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5936438Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5937833Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5939575Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5941118Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5941856Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5941913Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5942553Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5944429Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/communityValidation.test.js.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5946333Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5948004Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5949976Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5950735Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5951604Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5953265Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5954903Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5956399Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5957818Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5959353Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5960717Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5962683Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5964784Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5966471Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5967957Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5969150Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5969170Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5969827Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5971587Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/Studio.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5973365Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5975011Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5976723Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5977417Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.5978424Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6011743Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6013697Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6015191Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6016568Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6017921Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6019520Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6020839Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6022141Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6023537Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6024985Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6025711Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6025726Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6026362Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6028158Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/tokenImport.test.js.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6030218Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6031873Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6033598Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6034363Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6035214Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6036866Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6038667Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6040221Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6041657Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6042980Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6044343Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6045628Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6046922Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6048556Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6050058Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6051069Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6051089Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6051733Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6053518Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/Community.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6055308Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6056923Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6058844Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6059587Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6060439Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6062105Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6063977Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6065455Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6066823Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6068137Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6069683Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6070958Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6072223Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6073567Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6075025Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6075735Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6075750Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6076377Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6078098Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/ComponentsKeyboard.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6080148Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6081679Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6083385Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6084120Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6084958Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6086599Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6088437Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6089929Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6091346Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6092639Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6094052Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6095374Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6096627Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6098009Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6099791Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6100941Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6100970Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6101677Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6103587Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/tokenValidation.test.js.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6105422Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6106929Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6108561Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6109181Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6109896Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6111088Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6112308Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6113057Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6113770Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6114479Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6115148Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6115888Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6116548Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6117215Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6117988Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6118618Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6118629Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6118987Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6119947Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/Tokens.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6120894Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6121750Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6122662Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6123058Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6123506Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6124392Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6125227Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6126014Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6126747Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6127440Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6128164Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6129143Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6129849Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6130602Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6131368Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6131956Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6131964Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6132307Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6133278Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/TokensImport.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6134255Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6135143Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6136110Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6136525Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6137000Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6137859Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6139066Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6139836Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6140562Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6141354Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6142312Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6143118Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6143837Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6144624Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6145434Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6145861Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6145867Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6146223Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6147330Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/Components.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6148733Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6149677Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6150654Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6151085Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6151560Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6152496Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6153406Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6154231Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6155044Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6155794Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6156573Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6157479Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6158526Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6159473Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6160493Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6161165Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6161174Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6161527Z ⎯⎯⎯⎯⎯⎯ Unhandled Error ⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6162434Z Error: [vitest-pool]: Failed to start forks worker for test files /home/runner/work/Atria/Atria/tests/App.test.jsx.
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6163838Z  ❯ node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:94
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6164883Z  ❯ process.processTicksAndRejections node:internal/process/task_queues:95:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6165791Z  ❯ Pool.schedule node_modules/vitest/dist/chunks/index.Di8au7q4.js:5932:5
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6166185Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6166610Z Caused by: TypeError: Cannot read properties of undefined (reading 'bind')
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6167433Z  ❯ Object.<anonymous> node_modules/undici/lib/interceptor/decompress.js:78:30
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6168792Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6169587Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6170296Z  ❯ Module.load node:internal/modules/cjs/loader:1266:32
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6170969Z  ❯ Module._load node:internal/modules/cjs/loader:1091:12
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6171636Z  ❯ Module.require node:internal/modules/cjs/loader:1289:19
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6172669Z  ❯ require node:internal/modules/helpers:182:18
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6173522Z  ❯ Object.<anonymous> node_modules/undici/index.js:56:15
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6174350Z  ❯ Module._compile node:internal/modules/cjs/loader:1521:14
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6175072Z  ❯ Module._extensions..js node:internal/modules/cjs/loader:1623:10
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6175437Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6175661Z ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6175845Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6175868Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6176064Z  Test Files  no tests
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6176426Z       Tests  no tests
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6176816Z      Errors  14 errors
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6177204Z    Start at  04:28:02
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6177503Z    Duration  1.50s
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6177659Z
+Validate, test, and build	Run test suite	2026-11-25T04:28:03.6270467Z ##[error]Process completed with exit code 1.

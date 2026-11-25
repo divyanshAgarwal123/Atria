@@ -1,0 +1,9 @@
+ DEPRECATED  `test.poolOptions` was removed in Vitest 4. All previous `poolOptions` are now top-level options. Please, refer to the migration guide: https://v4.vitest.dev/guide/migration#pool-rework
+
+ RUN  v5.1.0 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/atria25
+
+
+ Test Files  1 passed (1)
+      Tests  6 passed (6)
+   Start at  10:05:55
+   Duration  2.29s (import 62%, environment 22%, tests 12%, setup 4%, transform 1%)

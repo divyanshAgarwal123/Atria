@@ -1,0 +1,512 @@
+
+> atria@0.1.0 test
+> vitest run
+
+ DEPRECATED  `test.poolOptions` was removed in Vitest 4. All previous `poolOptions` are now top-level options. Please, refer to the migration guide: https://v4.vitest.dev/guide/migration#pool-rework
+
+ RUN  v5.1.0 /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/atria25
+
+ ❯ tests/App.test.jsx (0 test)
+ ❯ tests/Community.test.jsx (0 test)
+ ❯ tests/Studio.test.jsx (4 tests | 1 failed) 211ms
+   ❯ Studio panel controls (4)
+     × returns an added component to the canvas and saves the updated workspace 31ms
+ ❯ tests/ThemePreviews.test.jsx (0 test)
+ ❯ tests/navigation.test.jsx (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 4 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/App.test.jsx [ tests/App.test.jsx ]
+Error: Transform failed with 1 error:
+
+[PARSE_ERROR] Unexpected token
+    ╭─[ src/App.jsx:96:111 ]
+    │
+ 96 │             <Link className="button button-dark" to="/explore">Explore library <ArrowRight size={16} /></Link>
+    │                                                                                                               │
+    │                                                                                                               ╰─
+────╯
+
+  Plugin: vite:oxc
+  File: /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/atria25/src/App.jsx
+ ❯ transformWithOxc node_modules/vite/dist/node/chunks/node.js:7673:19
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:7747:26
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:8636:51
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20112:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/5]⎯
+
+ FAIL  tests/Community.test.jsx [ tests/Community.test.jsx ]
+ FAIL  tests/ThemePreviews.test.jsx [ tests/ThemePreviews.test.jsx ]
+ FAIL  tests/navigation.test.jsx [ tests/navigation.test.jsx ]
+Error: Transform failed with 1 error:
+
+[PARSE_ERROR] Unexpected token
+    ╭─[ src/App.jsx:96:111 ]
+    │
+ 96 │             <Link className="button button-dark" to="/explore">Explore library <ArrowRight size={16} /></Link>
+    │                                                                                                               │
+    │                                                                                                               ╰─
+────╯
+
+  Plugin: vite:oxc
+  File: /Users/divyanshagarwal/Documents/ChatGPT/randoms/nsoc/atria25/src/App.jsx
+ ❯ transformWithOxc node_modules/vite/dist/node/chunks/node.js:7673:19
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:7747:26
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:8636:51
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20112:26
+ ❯ fetchModule node_modules/vite/dist/node/chunks/node.js:36229:15
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/5]⎯
+
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/Studio.test.jsx > Studio panel controls > returns an added component to the canvas and saves the updated workspace
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name `/^B Button$/`
+
+Here are the accessible roles:
+
+  navigation:
+
+  Name "Library tools":
+  <nav
+    aria-label="Library tools"
+    class="builder-tabs"
+  />
+
+  --------------------------------------------------
+  button:
+
+  Name "Add":
+  <button
+    aria-pressed="true"
+    class="active"
+  />
+
+  Name "Layers":
+  <button
+    aria-pressed="false"
+    class=""
+  />
+
+  Name "Tokens":
+  <button
+    aria-pressed="false"
+    class=""
+  />
+
+  Name "Palettes":
+  <button
+    aria-pressed="false"
+    class=""
+  />
+
+  --------------------------------------------------button:
+
+  Name "BButton":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "TText field":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "CCheckbox":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "SSwitch":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "BBadge":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "AAlert":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "CCard":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "NNavbar":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "SSidebar":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  Name "AAvatar":
+  <button
+    class="builder-add-item"
+    draggable="true"
+  />
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+<aside
+  aria-label="Component library tools"
+  class="builder-left"
+  id="builder-library"
+>
+  <nav
+    aria-label="Library tools"
+    class="builder-tabs"
+  >
+    <button
+      aria-pressed="true"
+      class="active"
+    >
+      <svg
+        fill="currentColor"
+        height="15"
+        viewBox="0 0 256 256"
+        width="15"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+      <span>
+        Add
+      </span>
+    </button>
+    <button
+      aria-pressed="false"
+      class=""
+    >
+      <svg
+        fill="currentColor"
+        height="15"
+        viewBox="0 0 256 256"
+        width="15"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M104,40H56A16,16,0,0,0,40,56v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,104,40Zm0,64H56V56h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V56A16,16,0,0,0,200,40Zm0,64H152V56h48v48Zm-96,32H56a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,104,136Zm0,64H56V152h48v48Zm96-64H152a16,16,0,0,0-16,16v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V152A16,16,0,0,0,200,136Zm0,64H152V152h48v48Z"
+        />
+      </svg>
+      <span>
+        Layers
+      </span>
+    </button>
+    <button
+      aria-pressed="false"
+      class=""
+    >
+      <svg
+        fill="currentColor"
+        height="15"
+        viewBox="0 0 256 256"
+        width="15"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M230.91,172A8,8,0,0,1,228,182.91l-96,56a8,8,0,0,1-8.06,0l-96-56A8,8,0,0,1,36,169.09l92,53.65,92-53.65A8,8,0,0,1,230.91,172ZM220,121.09l-92,53.65L36,121.09A8,8,0,0,0,28,134.91l96,56a8,8,0,0,0,8.06,0l96-56A8,8,0,1,0,220,121.09ZM24,80a8,8,0,0,1,4-6.91l96-56a8,8,0,0,1,8.06,0l96,56a8,8,0,0,1,0,13.82l-96,56a8,8,0,0,1-8.06,0l-96-56A8,8,0,0,1,24,80Zm23.88,0L128,126.74,208.12,80,128,33.26Z"
+        />
+      </svg>
+      <span>
+        Tokens
+      </span>
+    </button>
+    <button
+      aria-pressed="false"
+      class=""
+    >
+      <svg
+        fill="currentColor"
+        height="15"
+        viewBox="0 0 256 256"
+        width="15"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M200.77,53.89A103.27,103.27,0,0,0,128,24h-1.07A104,104,0,0,0,24,128c0,43,26.58,79.06,69.36,94.17A32,32,0,0,0,136,192a16,16,0,0,1,16-16h46.21a31.81,31.81,0,0,0,31.2-24.88,104.43,104.43,0,0,0,2.59-24A103.28,103.28,0,0,0,200.77,53.89Zm13,93.71A15.89,15.89,0,0,1,198.21,160H152a32,32,0,0,0-32,32,16,16,0,0,1-21.31,15.07C62.49,194.3,40,164,40,128a88,88,0,0,1,87.09-88h.9a88.35,88.35,0,0,1,88,87.25A88.86,88.86,0,0,1,213.81,147.6ZM140,76a12,12,0,1,1-12-12A12,12,0,0,1,140,76ZM96,100A12,12,0,1,1,84,88,12,12,0,0,1,96,100Zm0,56a12,12,0,1,1-12-12A12,12,0,0,1,96,156Zm88-56a12,12,0,1,1-12-12A12,12,0,0,1,184,100Z"
+        />
+      </svg>
+      <span>
+        Palettes
+      </span>
+    </button>
+  </nav>
+  <div
+    class="builder-left-content"
+  >
+    <div
+      class="builder-label"
+    >
+      COMPONENT LIBRARY
+      <small>
+        10
+         COMPONENTS
+      </small>
+    </div>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        B
+      </span>
+      <b>
+        Button
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        T
+      </span>
+      <b>
+        Text field
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        C
+      </span>
+      <b>
+        Checkbox
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        S
+      </span>
+      <b>
+        Switch
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        B
+      </span>
+      <b>
+        Badge
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        A
+      </span>
+      <b>
+        Alert
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        C
+      </span>
+      <b>
+        Card
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        N
+      </span>
+      <b>
+        Navbar
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        S
+      </span>
+      <b>
+        Sidebar
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+    <button
+      class="builder-add-item"
+      draggable="true"
+    >
+      <span>
+        A
+      </span>
+      <b>
+        Avatar
+      </b>
+      <svg
+        fill="currentColor"
+        height="13"
+        viewBox="0 0 256 256"
+        width="13"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"
+        />
+      </svg>
+    </button>
+  </div>
+</aside>
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ tests/Studio.test.jsx:39:37
+     37|     fireEvent.click(screen.getByRole('button', { name: 'Library', exac…
+     38|     const library = screen.getByRole('complementary', { name: 'Compone…
+     39|     fireEvent.click(within(library).getByRole('button', { name: /^B Bu…
+       |                                     ^
+     40|     expect(screen.getByRole('button', { name: 'Canvas', exact: true })…
+     41|     fireEvent.click(screen.getByRole('button', { name: 'Save', exact: …
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/5]⎯
+
+
+ Test Files  5 failed | 9 passed (14)
+      Tests  1 failed | 47 passed (48)
+   Start at  10:06:20
+   Duration  8.22s (import 49%, environment 29%, tests 14%, setup 7%)
+
+     Import  39 modules were evaluated 91 times · 6.98s total, 49% of tracked time
+             ~1.42s faster with isolate: false — shared modules are evaluated once per worker instead of once per file
+             learn more: https://vitest.dev/guide/improving-performance#test-isolation
