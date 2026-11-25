@@ -1,0 +1,23 @@
+{
+  "sourceHead": "ca405ddec481539252f205064c60c0c901618ec6",
+  "actualParent": "803f0b6e142059b884aa4894cda0a1b6748c1f29",
+  "sourceBlobs": [
+    {
+      "path": "tests/TokenBehaviour.test.jsx",
+      "gitBlobOid": "dc89c2c0b63cbf874f59cdef36d6e2c10f9960c4"
+    }
+  ],
+  "unchangedAppBlob": "9ade28e5105870aad71b7f66372108dc4d1e6928",
+  "ready": false,
+  "artifacts": {
+    "README.md": "4f6d6d7c1d813e7b4427d914003badc301dd709a70465b3e3482e4ec6b9a8f02",
+    "atria25-build.txt": "3a5259b5a93cd7f897de8526201f31a8c6e6d8c4386026ed2d7f33b7bd47d87d",
+    "atria25-gitleaks.txt": "4b0132f373df4521538ccb0345d67ef0858b589d205067b4bd5161f886e7f4e8",
+    "atria25-install.txt": "0d1749ea734aee73cec8e5a525bfc71d5551db53180e75f49c65dc3b4676205f",
+    "atria25-parent-build.txt": "4002f1f0638ca272469df1241b2ab30f9ae13cb283706aedf1f87d8e1db9da0f",
+    "atria25-parent-tests.txt": "e6bf506a6d963f60792708c0013f86d58834a3e5d398659aa4934cacfff11bae",
+    "atria25-tests.txt": "7aeaf42c026bd67ba170679b9e27cfc171f33ecdd4cc2aa8a7b422bef7ae2d92",
+    "atria25-validator.txt": "630cdbe509897a1fd3f5557284dd2986559ce602b2e7a8f215b2fa72570f231f",
+    "validation.json": "46b7da18f6a14df1501327d041fb946f14fe7b34027e75330080d7d94aa13512"
+  }
+}

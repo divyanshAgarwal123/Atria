@@ -1,0 +1,5 @@
+
+> atria@0.1.0 validate:contributions
+> node scripts/validate-community-contributions.js
+
+Validated 3 community contribution file(s).

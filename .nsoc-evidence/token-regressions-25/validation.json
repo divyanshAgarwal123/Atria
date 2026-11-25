@@ -1,0 +1,36 @@
+{
+  "sourceHead": "ca405ddec481539252f205064c60c0c901618ec6",
+  "actualParent": "803f0b6e142059b884aa4894cda0a1b6748c1f29",
+  "sourceFiles": [
+    {
+      "path": "tests/TokenBehaviour.test.jsx",
+      "gitBlobOid": "dc89c2c0b63cbf874f59cdef36d6e2c10f9960c4"
+    }
+  ],
+  "newTests": 6,
+  "newTestsResult": "PASS",
+  "fullTests": {
+    "head": "47pass1fail+4startupfailures",
+    "parent": "41pass1fail+same4startupfailures",
+    "sameFailures": "App.jsxtruncatedafterline96=>4parsefailures;StudioexistingBButtonaccessiblelabelassertionfails"
+  },
+  "build": {
+    "head": "FAIL:truncatedApp.jsx96",
+    "parent": "FAIL:sameApp.jsx96"
+  },
+  "unchangedAppBlob": "9ade28e5105870aad71b7f66372108dc4d1e6928",
+  "communityValidation": "PASS:3files",
+  "stagedSecrets": "PASS",
+  "scope": "One test file only; no production, dependency, config, assertion-floor or visual changes. Existing empty/duplicate-name validation tests preserved.",
+  "publication": "GENUINE_DRAFT; full tests/build blocked on unchanged main, not ready or credited. Existing assigned Level1 commitment, not a new lower-grade fallback.",
+  "logNormalization": "ANSI color and trailing whitespace removed only; original raw digests retained below.",
+  "rawLocalTranscriptDigests": {
+    "atria25-tests.log": "b971e380d63a2ad167c3524a47e24916d14370eeb1b4cf93a1797a1a2c606802",
+    "atria25-parent-tests.log": "a895d38f46b20db7e4afd078c5ec33e85a457ca93fa75ba59e5cca69715ae381",
+    "atria25-build.log": "52f0da2a9526b21d0840bdc11cb63f3e49ca87a36ff5414e476d663895460ded",
+    "atria25-parent-build.log": "1652e731586e66856e90d2ed85d3f9875d5ea4db91ff73ace895b53630fa7da1",
+    "atria25-validator.log": "630cdbe509897a1fd3f5557284dd2986559ce602b2e7a8f215b2fa72570f231f",
+    "atria25-install.log": "0d1749ea734aee73cec8e5a525bfc71d5551db53180e75f49c65dc3b4676205f",
+    "atria25-gitleaks.log": "4b0132f373df4521538ccb0345d67ef0858b589d205067b4bd5161f886e7f4e8"
+  }
+}
