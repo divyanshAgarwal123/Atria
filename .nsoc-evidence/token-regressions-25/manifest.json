@@ -1,6 +1,6 @@
 {
-  "sourceHead": "9d969e9d555e3fa2aab98bb32a5df6c35d042b8f",
-  "actualParent": "ca405ddec481539252f205064c60c0c901618ec6",
+  "sourceHead": "80f036632a1266e22cafeeb4ab0df85874735d18",
+  "actualParent": "9d969e9d555e3fa2aab98bb32a5df6c35d042b8f",
   "baseMain": "803f0b6e142059b884aa4894cda0a1b6748c1f29",
   "sourceBlobs": [
     {
@@ -16,6 +16,10 @@
       "gitBlobOid": "c356685a595294091e9668d64b42fd1b798b26ad"
     },
     {
+      "path": "tests/Studio.test.jsx",
+      "gitBlobOid": "55609047dce41a8c79388129bffe9a02f544c9c5"
+    },
+    {
       "path": "tests/TokenBehaviour.test.jsx",
       "gitBlobOid": "dc89c2c0b63cbf874f59cdef36d6e2c10f9960c4"
     }
@@ -23,8 +27,9 @@
   "unchangedAppBlob": "9ade28e5105870aad71b7f66372108dc4d1e6928",
   "ready": false,
   "artifacts": {
-    "README.md": "1944a3d06051dd54cf0fc61ebd235e4a46d66a558252c8be62a3f5c0ec60b54b",
+    "README.md": "2b7582943d1bee363f2eeaea71355b7e751bce2ef56440ba09a3044bc21fac8e",
     "atria25-build-final.txt": "d6256c52634b622656fee6889dc1f9f39ff711ccca0baa0d9493838f2b3c556d",
+    "atria25-build-selector-final.txt": "33dd5b74ac530347d4c4be8d2cb8856c9bdb853bda89a24f179d0cb834f55032",
     "atria25-build.txt": "3a5259b5a93cd7f897de8526201f31a8c6e6d8c4386026ed2d7f33b7bd47d87d",
     "atria25-focused-final.txt": "3c9b391eb1a32f41801d958e7e6affc56bbc7080ef21563b63fa461a071e4799",
     "atria25-gitleaks-final.txt": "ac08ed66be25bb345640a7dc34be19843b8ec08bf375b7eb89debf0df54dcda4",
@@ -34,8 +39,9 @@
     "atria25-parent-build.txt": "4002f1f0638ca272469df1241b2ab30f9ae13cb283706aedf1f87d8e1db9da0f",
     "atria25-parent-tests.txt": "e6bf506a6d963f60792708c0013f86d58834a3e5d398659aa4934cacfff11bae",
     "atria25-tests-final.txt": "ae188b8086de2a165e2941120aed62cd962f2dce8f12290fbddfb19fd7e69c07",
+    "atria25-tests-selector-final.txt": "d6631040e60a383409216dad191dcb2d5430eaa9fcc7fcc7c70c78227bedc742",
     "atria25-tests.txt": "7aeaf42c026bd67ba170679b9e27cfc171f33ecdd4cc2aa8a7b422bef7ae2d92",
     "atria25-validator.txt": "630cdbe509897a1fd3f5557284dd2986559ce602b2e7a8f215b2fa72570f231f",
-    "validation.json": "ab9589605a8653c39738f7938ff0faaea62a863f69c9744106567c9afdd2fc46"
+    "validation.json": "ca4ec739eeb6e543b38938774747c960b851882f55a283aa433bcec1400d797b"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "sourceHead": "9d969e9d555e3fa2aab98bb32a5df6c35d042b8f",
-  "actualParent": "ca405ddec481539252f205064c60c0c901618ec6",
+  "sourceHead": "80f036632a1266e22cafeeb4ab0df85874735d18",
+  "actualParent": "9d969e9d555e3fa2aab98bb32a5df6c35d042b8f",
   "sourceFiles": [
     {
       "path": ".github/workflows/ci.yml",
@@ -15,25 +15,29 @@
       "gitBlobOid": "c356685a595294091e9668d64b42fd1b798b26ad"
     },
     {
+      "path": "tests/Studio.test.jsx",
+      "gitBlobOid": "55609047dce41a8c79388129bffe9a02f544c9c5"
+    },
+    {
       "path": "tests/TokenBehaviour.test.jsx",
       "gitBlobOid": "dc89c2c0b63cbf874f59cdef36d6e2c10f9960c4"
     }
   ],
   "newTests": 6,
-  "newTestsResult": "FinalNode22focused6PASS;fullfinal47pass1fail+same4parsefailedsuites;buildsameApp96failure",
+  "newTestsResult": "All6newPASS;all48runnabletestsPASS;4Appstartupfailedsuitesremain.",
   "fullTests": {
-    "head": "47pass1fail+4startupfailures",
-    "parent": "41pass1fail+same4startupfailures",
-    "sameFailures": "App.jsxtruncatedafterline96=>4parsefailures;StudioexistingBButtonaccessiblelabelassertionfails"
+    "head": "48passed;4Appparsefailedsuites;0ordinarytestfailures",
+    "parent": "41pass1whitespace-selectorfail+same4Appparsefailedsuites",
+    "resolved": "StudioselectoranchoredB\\s*ButtonmatchesbothBButtonandB Button;Canvasandpersisted-four-elementsassertionsunchanged."
   },
   "build": {
-    "head": "FAIL:truncatedApp.jsx96",
-    "parent": "FAIL:sameApp.jsx96"
+    "head": "FAILtruncatedApp.jsx96;final80f0366run",
+    "parent": "FAILsameApp96"
   },
   "unchangedAppBlob": "9ade28e5105870aad71b7f66372108dc4d1e6928",
   "communityValidation": "PASS:3files",
   "stagedSecrets": "PASS",
-  "scope": "One test file plus Node20-to22.23.5 CI runtime alignment and two matching development-requirements docs; no production, dependency or test assertion-floor changes.",
+  "scope": "Sixnewtokenbehaviourtests;compatibleCIruntime22.23.5/twomatchingdevelopmentdocs;oneexistingStudioaccessiblenameselectormatcheswhitespacevariants.No production/dependency/timeouts/skips/behaviorassertionsremoved.",
   "publication": "GENUINE_DRAFT; full tests/build blocked on unchanged main, not ready or credited. Existing assigned Level1 commitment, not a new lower-grade fallback.",
   "logNormalization": "ANSI color and trailing whitespace removed only; original raw digests retained below.",
   "rawLocalTranscriptDigests": {
@@ -56,5 +60,6 @@
     "undici8.12.4": ">=22.19.0",
     "workflow": "22.23.5",
     "yaml": "parsedvalid/read-onlypermissionsunchanged"
-  }
+  },
+  "selectorEvidence": "Studio.jsx125rendersadjacentBspanandButtonbold;actualaccessible nameBButton. ChangedonlywhitespaceconstraintfromB ButtontoB\\s*Button,notbuttonidentityoroperationassertions."
 }
